@@ -1,0 +1,1 @@
+This repository demonstrates a common issue with the CSS `calc()` function. The `calc()` function, while powerful, can sometimes exhibit unexpected behavior when mixing different units like percentages and pixels. This example highlights one such scenario and offers a potential solution.
