@@ -1,0 +1,11 @@
+The problem is often caused by how the browser interprets the calculation.  Instead of directly subtracting pixels from a percentage, try using a workaround that ensures the calculation is performed accurately. For example, you can use the following solution that avoids directly subtracting pixels from percentages:
+
+```css
+.container {
+  width: 50%;
+  margin-left: 10px;
+  margin-right: 10px;
+  box-sizing: border-box; /* Important for accurate width calculation */
+}
+```
+This ensures the element's content takes 50% of the available width, and the margins account for the 10px on each side.
